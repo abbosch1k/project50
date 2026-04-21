@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    bool logged = false;
+
+    string cmd;
+    cin >> cmd;
+
+    if(cmd == "login") logged = true;
+
+    cout << (logged ? "Active" : "Inactive");
+}
